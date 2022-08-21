@@ -1,9 +1,10 @@
 # Compiled class file
 *.class
 
-#folders
+#intelij idea
 /.idea
 /out
+*.iml
 
 # Log file
 *.log

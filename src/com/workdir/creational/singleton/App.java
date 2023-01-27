@@ -3,6 +3,8 @@ package com.workdir.creational.singleton;
 public class App {
 
     public static void main(String[] args) {
-        Singleton singleton = Singleton.getSingleton();
+        for (int i = 0; i < 10; i++) {
+            Singleton singleton = Singleton.getSingleton();
+        }
     }
 }
